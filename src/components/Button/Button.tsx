@@ -45,6 +45,7 @@ export const Button = (props: buttonType) => {
     }
 
 
+    
     const incrNumHandler1 = () => {
         props.incrNum(props.incrementNumber1)
     }
