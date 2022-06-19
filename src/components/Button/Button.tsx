@@ -55,10 +55,10 @@ export const Button = (props: buttonType) => {
 
     return (
         <div>
-            <button className={on ? s.on : s.unOffOn}
+            <button className={on ? s.off : s.on}
                 onClick={onClicked}>On</button>
 
-            <button className={on ? s.off : s.unOffOn}
+            <button className={on ? s.on : s.unOffOn}
                 onClick={offClicked}>Off</button>
             <div className={on ? s.indicatorOn : s.indicatorOff}>Ind</div>
 
